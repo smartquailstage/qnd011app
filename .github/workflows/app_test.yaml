@@ -12,7 +12,7 @@ jobs:
         working-directory: ./qnd011app
     env:
       DJANGO_SECRET_KEY: test-key-not-good
-      NAME_DB: QND41STDB
+      NAME_DB: QND011STDB
       PASSWORD_DB: Support1719@
       USER_DB: sqadmindb
       HOST_DB: smartquaildb
@@ -23,7 +23,7 @@ jobs:
       smartquaildb:
         image: postgres:16-alpine
         env: 
-          POSTGRES_DB: QND41STDB
+          POSTGRES_DB: QND011STDB
           POSTGRES_PASSWORD: Support1719@
           POSTGRES_USER: sqadmindb
           POSTGRES_HOST: smartquaildb

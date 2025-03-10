@@ -17,9 +17,10 @@ header {
 
 
 
+
 .sidebar__inner {
     height: 100%;
-    background: #0f0e0e;
+    background: #323232;
     display: flex;
     flex-flow: column nowrap;
   }

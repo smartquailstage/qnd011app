@@ -13,6 +13,8 @@ django-social-share
 # Wagtail Google Maps
 wagtailgmaps
 
+wagtail_modeladmin
+
 # Requests
 requests
 
